@@ -25,9 +25,9 @@ const signupage = ({onSignup}) => {
         <h1 className='text-5xl font-bold'>Stay Updated!</h1>
         <p>Join 60,000+ product managers receiving weekly updates on:</p>
         <ul className='flex flex-col gap-4'>
-          <li className='flex gap-3'><img src="./src/assets/icon-list.svg" alt="list" /><span>Product discovery and building what matters</span></li>
-          <li className='flex gap-3'><img src="./src/assets/icon-list.svg" alt="list" /><span>Measuring to ensure updates are a success</span></li>  
-          <li className='flex gap-3'><img src="./src/assets/icon-list.svg" alt="list" /><span>And much more!</span></li>
+          <li className='flex gap-3'><img src="./icon-list.svg" alt="list" /><span>Product discovery and building what matters</span></li>
+          <li className='flex gap-3'><img src="./icon-list.svg" alt="list" /><span>Measuring to ensure updates are a success</span></li>  
+          <li className='flex gap-3'><img src="./icon-list.svg" alt="list" /><span>And much more!</span></li>
         </ul>
         <form className='flex flex-col gap-4' onSubmit={submitForm}>
           <p>Email address</p>
@@ -39,8 +39,8 @@ const signupage = ({onSignup}) => {
     {/* 2nd section */}
     <section className="second">
       <div className="img height-[550px]">
-        <img src="./src/assets/illustration-sign-up-desktop.svg" alt="background" className='h-[550px] md:block hidden' />
-        <img src="./src/assets/illustration-sign-up-mobile.svg" alt="background" className='md:hidden min-w-[300px] block' />
+        <img src="./illustration-sign-up-desktop.svg" alt="background" className='h-[550px] md:block hidden' />
+        <img src="./illustration-sign-up-mobile.svg" alt="background" className='md:hidden min-w-[300px] block' />
       </div>
     </section>
   </main>
