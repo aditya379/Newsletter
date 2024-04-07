@@ -18,8 +18,9 @@ const signupage = ({onSignup}) => {
 
   return (
     
-    <main className='signupage md:h-[100vh] p-2 md:p-0 w-[100%] gap-10 flex md:flex-row flex-col-reverse justify-center items-center'>
+    <main className='signupage bg-slate-800 md:h-[100vh] w-[100%] flex justify-center items-center '>
     {/* 1st section */}
+    <div className='gap-10 bg-white rounded-lg w-[80%] flex md:flex-row flex-col-reverse justify-center items-center p-2  '>
     <section className="first flex justify-center items-center">
       <div className="texts flex flex-col justify-center gap-10">
         <h1 className='text-5xl font-bold'>Stay Updated!</h1>
@@ -40,9 +41,10 @@ const signupage = ({onSignup}) => {
     <section className="second">
       <div className="img height-[550px]">
         <img src="./illustration-sign-up-desktop.svg" alt="background" className='h-[550px] md:block hidden' />
-        <img src="./illustration-sign-up-mobile.svg" alt="background" className='md:hidden min-w-[300px] block' />
+        <img src="./illustration-sign-up-mobile.svg" alt="background" className='md:hidden min-w-[250px] block' />
       </div>
     </section>
+    </div>
   </main>
   )
 }
